@@ -1,0 +1,93 @@
+body{
+    overflow: hidden;
+    background: #262626;
+
+}
+nav h1{
+    margin: 15px 10px 0 50px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+#page-content-wrapper .card{
+    width: 254px;
+    height: 242px;
+    border-radius: none;
+    margin: auto;
+    align-items: center;
+}
+#page-content-wrapper .card-body{
+    background: #262626;
+}
+#page-content-wrapper .card-text{
+    color:#D9D9D9 ;
+    font-size: 18px;
+
+}
+#page-content-wrapper .card-title,.card-text{
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    ;
+}
+
+#page-content-wrapper h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 59px;
+    color:#FFFFFF;
+}
+
+#page-content-wrapper .card1{
+    margin-top: 50px;
+}
+#page-content-wrapper{
+    margin-top: 106px;
+}
+
+#sidebar-nav-wrapper{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 87px;
+    left: 0;
+    background-color: #B0C1C2;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#sidebar-nav-wrapper a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sidebar-nav-wrapper div:hover{
+    background: #779799;
+}
+#sidebar-nav-wrapper .btn-close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#page-content-wrapper{
+    transition: margin-left 0.5s;
+    width: 100%;
+    padding: 15px;
+    overflow-x: hidden;
+}
+
+#page-content-wrapper .card .btn{
+    background-color: #262626;
+}
